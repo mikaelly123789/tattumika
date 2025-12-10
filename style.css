@@ -28,7 +28,6 @@ body {
 .logo-imagem {
     max-width: 350px;
     height: auto;
-    filter: brightness(0) invert(1);
 }
 
 /* Navegação */
@@ -153,6 +152,8 @@ body {
     flex-direction: column;
 }
 
+
+
 .type-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.15);
@@ -192,7 +193,7 @@ body {
     color: #666;
     line-height: 1.6;
     text-align: center;
-    flex-grow: 1;
+    flex-grow:2;
 }
 
 /* Galeria */
@@ -222,7 +223,7 @@ body {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 2fr));
     gap: 20px;
 }
 
